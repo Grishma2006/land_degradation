@@ -1,0 +1,43 @@
+:root{
+  --green:#2e7d32; --green-dark:#1b5e20; --bg:#f7f9f5; --card:#ffffff; --text:#222;
+  --shadow:0 8px 24px rgba(0,0,0,.08);
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{font-family:system-ui,Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+
+.topbar{position:sticky;top:0;z-index:10;background:var(--green);color:#fff;display:flex;gap:16px;align-items:center;justify-content:space-between;padding:10px 14px;box-shadow:var(--shadow)}
+.brand{font-weight:800}
+.nav{display:flex;gap:10px;flex-wrap:wrap}
+.nav a{color:#fff;text-decoration:none;padding:6px 10px;border-radius:10px}
+.nav a.active,.nav a:hover{background:rgba(255,255,255,.18)}
+.lang select{border:none;border-radius:10px;padding:6px 10px}
+
+.container{max-width:980px;margin:18px auto;padding:0 16px}
+.narrow{max-width:680px}
+
+.hero{background:linear-gradient(180deg,#e8f5e9,#f1f8e9);padding:24px;border-radius:16px;box-shadow:var(--shadow);text-align:center}
+.lead{opacity:.9}
+
+.grid{display:grid;gap:16px}
+.grid-2{grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+
+.card{background:var(--card);border-radius:16px;box-shadow:var(--shadow);padding:16px}
+.big-card{background:var(--card);border-radius:16px;box-shadow:var(--shadow);padding:22px;text-decoration:none;color:inherit;display:flex;flex-direction:column;gap:6px;align-items:flex-start;border:2px solid transparent}
+.big-card:hover{border-color:#d7e7d7;transform:translateY(-1px);transition:.15s ease}
+.icon{font-size:38px;line-height:1}
+
+.card-choice{display:flex;align-items:center;justify-content:center;gap:10px;font-size:22px;padding:18px;border:3px solid #e0f2f1}
+.card-choice:focus{outline:3px solid #90caf9}
+
+.solution.hidden{display:none}
+.solution h2{margin-top:0}
+.solution li{margin:.2rem 0}
+
+.btn{background:var(--green);color:#fff;border:none;border-radius:12px;padding:10px 14px;font-weight:600;cursor:pointer}
+.btn:hover{background:var(--green-dark)}
+.btn-light{background:#e8f5e9;color:#245b27}
+
+.steps{display:grid;gap:8px;padding-left:18px}
+
+.foot{margin:24px auto 40px;text-align:center;color:#567}

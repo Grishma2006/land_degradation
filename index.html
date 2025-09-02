@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>SoilCare – Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="style.css" rel="stylesheet" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">🌱 SoilCare</div>
+  <nav class="nav">
+    <a class="active" href="index.html" data-i18n="nav_home">Home</a>
+    <a href="soil.html" data-i18n="nav_soil">Soil</a>
+    <a href="causes.html" data-i18n="nav_causes">Causes</a>
+    <a href="prevention.html" data-i18n="nav_prev">Prevention</a>
+    <a href="help.html" data-i18n="nav_help">Help</a>
+  </nav>
+  <div class="lang">
+    <label for="langSel">🌐</label>
+    <select id="langSel" aria-label="Language">
+      <option value="mr">मराठी</option>
+      <option value="hi">हिन्दी</option>
+      <option value="en">English</option>
+    </select>
+  </div>
+</header>
+
+<main class="container">
+  <section class="hero">
+    <h1 data-i18n="home_title">Healthy Soil. Better Yields.</h1>
+    <p class="lead" data-i18n="home_intro">
+      Tap an option below. Simple language, pictures, and audio help included.
+    </p>
+  </section>
+
+  <section class="grid grid-2">
+    <a class="big-card" href="soil.html">
+      <div class="icon">🧪</div>
+      <h2 data-i18n="home_card_soil">Check Soil</h2>
+      <p data-i18n="home_card_soil_desc">Choose soil condition → get solution + audio.</p>
+    </a>
+
+    <a class="big-card" href="causes.html">
+      <div class="icon">⚠️</div>
+      <h2 data-i18n="home_card_causes">Causes</h2>
+      <p data-i18n="home_card_causes_desc">See what harms soil and quick fixes.</p>
+    </a>
+
+    <a class="big-card" href="prevention.html">
+      <div class="icon">🌾</div>
+      <h2 data-i18n="home_card_prev">Prevention</h2>
+      <p data-i18n="home_card_prev_desc">Easy steps to keep soil healthy.</p>
+    </a>
+
+    <a class="big-card" href="help.html">
+      <div class="icon">🔊</div>
+      <h2 data-i18n="home_card_help">Help & Audio</h2>
+      <p data-i18n="home_card_help_desc">How to use this site with voice.</p>
+    </a>
+  </section>
+</main>
+
+<footer class="foot">
+  <span>© 2025 SoilCare</span>
+</footer>
+</body>
+</html>

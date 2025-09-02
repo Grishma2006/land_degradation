@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>SoilCare – Soil Checker</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="style.css" rel="stylesheet" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">🌱 SoilCare</div>
+  <nav class="nav">
+    <a href="index.html" data-i18n="nav_home">Home</a>
+    <a class="active" href="soil.html" data-i18n="nav_soil">Soil</a>
+    <a href="causes.html" data-i18n="nav_causes">Causes</a>
+    <a href="prevention.html" data-i18n="nav_prev">Prevention</a>
+    <a href="help.html" data-i18n="nav_help">Help</a>
+  </nav>
+  <div class="lang">
+    <label for="langSel">🌐</label>
+    <select id="langSel">
+      <option value="mr">मराठी</option>
+      <option value="hi">हिन्दी</option>
+      <option value="en">English</option>
+    </select>
+  </div>
+</header>
+
+<main class="container">
+  <h1 data-i18n="soil_title">Select your soil condition</h1>
+
+  <section class="grid grid-2">
+    <button class="card card-choice" data-soil="dry">
+      <span class="icon">🌵</span>
+      <span class="t" data-i18n="soil_dry">Dry</span>
+    </button>
+    <button class="card card-choice" data-soil="cracked">
+      <span class="icon">⛓️</span>
+      <span class="t" data-i18n="soil_cracked">Cracked</span>
+    </button>
+    <button class="card card-choice" data-soil="sandy">
+      <span class="icon">🏖️</span>
+      <span class="t" data-i18n="soil_sandy">Sandy</span>
+    </button>
+    <button class="card card-choice" data-soil="wet">
+      <span class="icon">💧</span>
+      <span class="t" data-i18n="soil_wet">Wet/Waterlogged</span>
+    </button>
+  </section>
+
+  <section id="solutionBox" class="solution card hidden">
+    <h2 id="solTitle" data-i18n="sol_title">Solution</h2>
+    <ul id="solList"></ul>
+
+    <div class="actions">
+      <button id="speakBtn" class="btn" data-i18n="btn_listen">🔊 Listen</button>
+      <button id="copyBtn" class="btn" data-i18n="btn_copy">📋 Copy</button>
+      <button id="printBtn" class="btn" data-i18n="btn_print">🖨️ Print</button>
+      <button id="resetBtn" class="btn btn-light" data-i18n="btn_reset">↺ Reset</button>
+    </div>
+  </section>
+</main>
+
+<footer class="foot"><span>© 2025 SoilCare</span></footer>
+</body>
+</html>
