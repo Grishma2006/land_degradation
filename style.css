@@ -174,3 +174,12 @@ body{font-family:system-ui,Segoe UI,Arial,sans-serif;background:var(--bg);color:
   color: black;           /* ✅ make text black */
   text-decoration: none;  /* ✅ remove underline */
 }
+/* Make home card links black & remove underline */
+.home .card a,
+.home .card a:link,
+.home .card a:visited,
+.home .card a:hover,
+.home .card a:active {
+  color: #000 !important;
+  text-decoration: none !important;
+}
