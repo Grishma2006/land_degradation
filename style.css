@@ -236,3 +236,13 @@ body{font-family:system-ui,Segoe UI,Arial,sans-serif;background:var(--bg);color:
     font-size: 2.5rem;
     font-weight: 2px 2px 5px rgba(0,0,0,0.6);
   }
+.hero-section {
+  height: 100vh; /* full screen height */
+  background: url("images/soil-heroo.jpeg") no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white; /* text visible on image */
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+}
