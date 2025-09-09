@@ -189,12 +189,9 @@ body{font-family:system-ui,Segoe UI,Arial,sans-serif;background:var(--bg);color:
   color: #000 !important;             /* force black text */
   .card video {
   width: 100%;       /* take full width of card */
-  height: 250px;     /* or set any height you like */
+  height: 400px;     /* or set any height you like */
   object-fit: cover; /* crop nicely if aspect ratio differs */
   border-radius: 10px;
-}
-
-  text-decoration: none !important;   /* remove underline */
 }
 
 
