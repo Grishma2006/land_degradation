@@ -183,4 +183,11 @@ body{font-family:system-ui,Segoe UI,Arial,sans-serif;background:var(--bg);color:
   color: #000 !important;
   text-decoration: none !important;
 .home .card a { border: 0 !important; }
+  .card, 
+.card *, 
+.card a {
+  color: #000 !important;             /* force black text */
+  text-decoration: none !important;   /* remove underline */
+}
+
 
