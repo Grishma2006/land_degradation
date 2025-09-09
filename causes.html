@@ -2,14 +2,15 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <title>SoilCare – Causes</title>
+  <title>SoilCare – Causes of Soil Degradation</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link href="style.css" rel="stylesheet" />
   <script defer src="script.js"></script>
 </head>
+
 <body>
 <header class="topbar">
-  <div class="brand">🌱 SoilCare</div>
+  <div class="brand">SoilCare</div>
   <nav class="nav">
     <a href="index.html" data-i18n="nav_home">Home</a>
     <a href="soil.html" data-i18n="nav_soil">Soil</a>
@@ -18,7 +19,6 @@
     <a href="help.html" data-i18n="nav_help">Help</a>
   </nav>
   <div class="lang">
-    <label for="langSel">🌐</label>
     <select id="langSel">
       <option value="mr">मराठी</option>
       <option value="hi">हिन्दी</option>
@@ -31,33 +31,63 @@
   <h1 data-i18n="causes_title">What harms the soil?</h1>
 
   <section class="grid grid-2">
-    <div class="card cause">
-      <div class="icon">🪓</div>
+    <!-- Deforestation -->
+    <div class="card">
+      <img src="images/deforestation.jpg" alt="Deforestation" class="icon-img">
       <h3 data-i18n="cause_deforest">Deforestation</h3>
       <p data-i18n="cause_deforest_desc">Trees removed → soil erodes.</p>
-      <button class="btn speak" data-i18n="btn_listen">🔊 Listen</button>
+      <p>
+        <strong data-i18n="more_info">More info:</strong>
+        <span data-i18n="cause_deforest_more">Without tree roots to hold it, soil easily washes away in rain and wind.</span>
+      </p>
+      <button class="btn speak" data-i18n="btn_listen">Listen</button>
     </div>
 
-    <div class="card cause">
-      <div class="icon">🐄</div>
+    <!-- Overgrazing -->
+    <div class="card">
+      <img src="images/overgrazing.jpg" alt="Overgrazing" class="icon-img">
       <h3 data-i18n="cause_grazing">Overgrazing</h3>
       <p data-i18n="cause_grazing_desc">Too many animals → no grass cover.</p>
-      <button class="btn speak" data-i18n="btn_listen">🔊 Listen</button>
+      <p>
+        <strong data-i18n="more_info">More info:</strong>
+        <span data-i18n="cause_grazing_more">When animals eat grass faster than it regrows, soil becomes bare and erodes.</span>
+      </p>
+      <button class="btn speak" data-i18n="btn_listen">Listen</button>
     </div>
 
-    <div class="card cause">
-      <div class="icon">🧪</div>
+    <!-- Chemicals -->
+    <div class="card">
+      <img src="images/chemicals.jpg" alt="Excess Chemicals" class="icon-img">
       <h3 data-i18n="cause_chem">Excess chemicals</h3>
       <p data-i18n="cause_chem_desc">Kills soil life, makes it salty.</p>
-      <button class="btn speak" data-i18n="btn_listen">🔊 Listen</button>
+      <p>
+        <strong data-i18n="more_info">More info:</strong>
+        <span data-i18n="cause_chem_more">Overuse of pesticides and fertilizers damages soil microbes and fertility.</span>
+      </p>
+      <button class="btn speak" data-i18n="btn_listen">Listen</button>
     </div>
 
-    <div class="card cause">
-      <div class="icon">🏭</div>
+    <!-- Pollution -->
+    <div class="card">
+      <img src="images/pollution.jpg" alt="Pollution" class="icon-img">
       <h3 data-i18n="cause_poll">Pollution & waste</h3>
       <p data-i18n="cause_poll_desc">Dirty water/garbage harms fields.</p>
-      <button class="btn speak" data-i18n="btn_listen">🔊 Listen</button>
+      <p>
+        <strong data-i18n="more_info">More info:</strong>
+        <span data-i18n="cause_poll_more">Industrial waste, sewage, and plastics make the soil toxic for plants and people.</span>
+      </p>
+      <button class="btn speak" data-i18n="btn_listen">Listen</button>
     </div>
+  </section>
+
+  <!-- Video Section -->
+  <section class="video-card card">
+    <h2>Watch: Causes of Soil Degradation</h2>
+    <iframe width="100%" height="300"
+      src="https://youtu.be/jdqH_DEfqtE"
+      title="Causes of Soil Degradation"
+      frameborder="0" allowfullscreen>
+    </iframe>
   </section>
 </main>
 
