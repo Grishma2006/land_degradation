@@ -72,6 +72,15 @@
     Your browser does not support the video tag.
   </video>
   </section>
+    <script>
+  function openSection(sectionId) {
+    document.querySelectorAll('.content').forEach(div => {
+      div.classList.remove('active');
+    });
+    document.getElementById(sectionId).classList.add('active');
+  }
+</script>
+
 </main>
 <!DOCTYPE html>
 <html lang="en">
