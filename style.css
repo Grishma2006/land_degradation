@@ -223,7 +223,7 @@ body{font-family:system-ui,Segoe UI,Arial,sans-serif;background:var(--bg);color:
 
 .hero-section{
   position:relative;
-  height: 300px;
+  height: 150px;
   background:url(images/soil-heroo.jpeg) no-repeat center
   center/cover;
   display: flex;
