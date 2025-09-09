@@ -174,7 +174,3 @@ body{font-family:system-ui,Segoe UI,Arial,sans-serif;background:var(--bg);color:
   color: black;           /* ✅ make text black */
   text-decoration: none;  /* ✅ remove underline */
 }
-.card a:hover {
-  color: darkgreen;       /* optional: color on hover */
-  text-decoration: underline; /* optional: underline on hover */
-}
