@@ -170,3 +170,11 @@ body{font-family:system-ui,Segoe UI,Arial,sans-serif;background:var(--bg);color:
   height: 450px;         /* bigger height for better visibility */
   border-radius: 12px;
 }
+.card a {
+  color: black;           /* ✅ make text black */
+  text-decoration: none;  /* ✅ remove underline */
+}
+.card a:hover {
+  color: darkgreen;       /* optional: color on hover */
+  text-decoration: underline; /* optional: underline on hover */
+}
