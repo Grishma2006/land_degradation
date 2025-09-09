@@ -64,7 +64,7 @@ body{font-family:system-ui,Segoe UI,Arial,sans-serif;background:var(--bg);color:
 
 .hero-img {
   width: 100%;
-  max-height: 300px;
+  max-height: 500px;
   object-fit: cover;
   border-radius: 16px;
   margin-top: 12px;
