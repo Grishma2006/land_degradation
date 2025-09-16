@@ -3,6 +3,27 @@ const I18N = {
   en: {
     // Navigation
     nav_home:"Home", nav_soil:"Soil", nav_causes:"Causes", nav_prev:"Prevention", nav_help:"Help",
+const translations = {
+  hi: {
+    home: "होम",
+    soil: "मिट्टी",
+    causes: "कारण",
+    prevention: "रोकथाम",
+    help: "मदद"
+  },
+  mr: {
+    home: "होम",
+    soil: "माती",
+    causes: "कारणे",
+    prevention: "प्रतिबंध",
+    help: "मदत"
+  }
+};
+<li data-i18n="home"></li>
+<li data-i18n="soil"></li>
+<li data-i18n="causes"></li>
+<li data-i18n="prevention"></li>
+<li data-i18n="help"></li>
 
     // Common
     more_info:"More info:",
