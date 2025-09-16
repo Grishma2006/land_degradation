@@ -19,11 +19,7 @@ const translations = {
     help: "मदत"
   }
 };
-<li data-i18n="home"></li>
-<li data-i18n="soil"></li>
-<li data-i18n="causes"></li>
-<li data-i18n="prevention"></li>
-<li data-i18n="help"></li>
+
 
     // Common
     more_info:"More info:",
