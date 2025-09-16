@@ -4,6 +4,13 @@ const I18N = {
     // Navigation
     nav_home:"Home", nav_soil:"Soil", nav_causes:"Causes", nav_prev:"Prevention", nav_help:"Help",
 const translations = {
+  en: {
+    home: "Home",
+    soil: "Soil",
+    causes: "Causes",
+    prevention: "Prevention",
+    help: "Help"
+  },
   hi: {
     home: "होम",
     soil: "मिट्टी",
@@ -19,6 +26,11 @@ const translations = {
     help: "मदत"
   }
 };
+<li data-i18n="home"></li>
+<li data-i18n="soil"></li>
+<li data-i18n="causes"></li>
+<li data-i18n="prevention"></li>
+<li data-i18n="help"></li>
 
 
     // Common
